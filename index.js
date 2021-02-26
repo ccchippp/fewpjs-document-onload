@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function() {
     pTag()
 })
 
 function pTag() {
-    document.getElementById('text').innerText = "This is really cool!"
+    document.getElementById('text').innerHTML = "This is really cool!"
 }
